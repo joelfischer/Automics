@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mrl.automics.ui.MyFrameLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/frame"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer="true"
+    >
+	<ImageView
+		android:id="@+id/selected_image"
+		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:clickable="true"
+	/>
+</mrl.automics.ui.MyFrameLayout>

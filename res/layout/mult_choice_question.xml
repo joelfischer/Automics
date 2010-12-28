@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:orientation="vertical" android:padding="4dip"
+    android:gravity="center_horizontal"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="@drawable/default_background">
+    <TextView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginTop="8dip"
+        android:layout_marginBottom="8dip"
+        android:textSize="20sp"
+        android:text="@string/mult_choice_question_txt"/>
+
+    <Button android:id="@+id/one"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" 
+        android:padding="20dip"
+        android:layout_marginBottom="8dip"
+        android:text="@string/one_txt">
+        <requestFocus />
+    </Button>
+    <Button android:id="@+id/two"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" 
+        android:padding="20dip"
+        android:layout_marginBottom="8dip"
+        android:text="@string/two_txt">
+        <requestFocus />
+    </Button>
+    <Button android:id="@+id/three"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" 
+        android:padding="20dip"
+        android:layout_marginBottom="8dip"
+        android:text="@string/three_txt">
+        <requestFocus />
+    </Button>
+    <Button android:id="@+id/four"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" 
+        android:padding="20dip"
+        android:layout_marginBottom="8dip"
+        android:text="@string/four_txt">
+        <requestFocus />
+    </Button>
+    <Button android:id="@+id/five"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" 
+        android:padding="20dip"
+        android:layout_marginBottom="8dip"
+        android:text="@string/five_txt">
+        <requestFocus />
+    </Button>
+
+
+</LinearLayout>
+

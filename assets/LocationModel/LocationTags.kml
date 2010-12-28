@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<kml xmlns="http://www.opengis.net/kml/2.2"> 
+<Document> 
+<name>Tagged Locations</name>
+<description> 
+</description> 
+<Style id="yellowLineGreenPoly"> 
+<LineStyle>
+<color>7f00ffff></color> 
+<width>3</width> 
+</LineStyle> 
+<PolyStyle>
+<color>7f00ff00</color> 
+</PolyStyle>
+</Style> 
+<Style id="redIcon"> 
+ <IconStyle> 
+     <Icon>
+       <href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+    </Icon>
+ </IconStyle>
+</Style>
+<Style id="yellowIcon"> 
+ <IconStyle> 
+     <Icon>
+       <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+    </Icon>
+ </IconStyle>
+</Style>
+<Style id="greenIcon"> 
+ <IconStyle> 
+     <Icon>
+       <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+    </Icon>
+ </IconStyle>
+</Style>
+<Style id="blueIcon"> 
+ <IconStyle> 
+     <Icon>
+       <href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+    </Icon>
+ </IconStyle>
+</Style>
+<Style id="whiteIcon"> 
+ <IconStyle> 
+     <Icon>
+       <href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
+    </Icon>
+ </IconStyle>
+</Style>
+<Placemark> 
+ <name>path</name> 
+ <styleUrl>#yellowLineGreenPoly</styleUrl> 
+<LineString> 
+<extrude>1</extrude> 
+ <tessellate>1</tessellate> 
+<altitudeMode>relativeToGround</altitudeMode> 
+<coordinates> 
+-1.896809,52.986663,50 
+-1.896316,52.986599,50 
+-1.892641,52.985488,50 
+-1.892341,52.98529,50 
+-1.892459,52.984528,50 
+-1.893269,52.984678,50 
+-1.890361,52.985252,50 
+-1.889981,52.985048,50 
+-1.890195,52.984705,50 
+-1.889755,52.984528,50 
+-1.889975,52.988895,50 
+-1.890104,52.988637,50 
+-1.889814,52.989013,50 
+-1.889385,52.989131,50 
+-1.896144,52.987065,50 
+-1.896026,52.987001,50 
+-1.896809,52.986663,50 
+-1.896316,52.986599,50 
+-1.892641,52.985488,50 
+-1.892341,52.98529,50 
+-1.892459,52.984528,50 
+-1.893269,52.984678,50 
+-1.890361,52.985252,50 
+-1.889981,52.985048,50 
+-1.890195,52.984705,50 
+-1.889562,52.985209,50 
+-1.889755,52.984528,50 
+-1.889975,52.988895,50 
+-1.890104,52.988637,50 
+-1.889814,52.989013,50 
+-1.889385,52.989131,50 
+-1.889407,52.989136,50 
+-1.88997,52.989259,50 
+-1.889101,52.989689,50 
+-1.888715,52.989732,50 
+-1.885614,52.989753,50 
+-1.884439,52.988981,50 
+-1.884638,52.988911,50 
+-1.883425,52.987119,50 
+-1.883184,52.986867,50 
+-1.882959,52.986679,50 
+-1.882899,52.98669,50 
+-1.882814,52.98632,50 
+-1.881955,52.985456,50 
+-1.881934,52.986207,50 
+-1.881939,52.98618,50 
+-1.882304,52.986052,50 
+-1.884364,52.988884,50 
+-1.884316,52.988814,50 
+-1.887019,52.989678,50 
+-1.886483,52.989769,50 
+-1.892083,52.989222,50 
+-1.894476,52.988943,50 
+-1.895704,52.986459,50 
+</coordinates> 
+</LineString> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 1</name><description>tagId: 1 
+type: photo opportunity 
+Radius: 10m 
+Comment: oblivion seat  
+Time: 2010-06-14 11:45:32 
+Timestamp: 1276515976074
+</description> 
+<styleUrl>#greenIcon</styleUrl> 
+<Point><coordinates>-1.896144,52.987065,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 2</name><description>tagId: 2 
+type: lunch/break 
+Radius: 15m 
+Comment: rehydrator bar  
+Time: 2010-06-14 11:46:25 
+Timestamp: 1276516032072
+</description> 
+<styleUrl>#blueIcon</styleUrl> 
+<Point><coordinates>-1.896026,52.987001,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 3</name><description>tagId: 3 
+type: Q-Zone 
+Radius: 20m 
+Comment: oblivion q  
+Time: 2010-06-14 11:49:13 
+Timestamp: 1276516250697
+</description> 
+<styleUrl>#yellowIcon</styleUrl> 
+<Point><coordinates>-1.896809,52.986663,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 4</name><description>tagId: 4 
+type: Q-Zone 
+Radius: 20m 
+Comment: oblivion q2 
+Time: 2010-06-14 11:51:33 
+Timestamp: 1276516320065
+</description> 
+<styleUrl>#yellowIcon</styleUrl> 
+<Point><coordinates>-1.896316,52.986599,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 5</name><description>tagId: 5 
+type: Q-Zone 
+Radius: 10m 
+Comment: hex  
+Time: 2010-06-14 12:46:38 
+Timestamp: 1276519630437
+</description> 
+<styleUrl>#yellowIcon</styleUrl> 
+<Point><coordinates>-1.892641,52.985488,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 6</name><description>tagId: 6 
+type: lunch/break 
+Radius: 15m 
+Comment: woodcutters  
+Time: 2010-06-14 12:49:05 
+Timestamp: 1276519790391
+</description> 
+<styleUrl>#blueIcon</styleUrl> 
+<Point><coordinates>-1.892341,52.98529,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 7</name><description>tagId: 7 
+type: Q-Zone 
+Radius: 10m 
+Comment: sky ride  
+Time: 2010-06-14 12:51:22 
+Timestamp: 1276519908950
+</description> 
+<styleUrl>#yellowIcon</styleUrl> 
+<Point><coordinates>-1.892459,52.984528,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 8</name><description>tagId: 8 
+type: photo opportunity 
+Radius: 10m 
+Comment: flowers  
+Time: 2010-06-14 12:52:34 
+Timestamp: 1276520005635
+</description> 
+<styleUrl>#greenIcon</styleUrl> 
+<Point><coordinates>-1.893269,52.984678,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 9</name><description>tagId: 9 
+type: lunch/break 
+Radius: 10m 
+Comment: Rita  
+Time: 2010-06-14 12:57:45 
+Timestamp: 1276520303252
+</description> 
+<styleUrl>#blueIcon</styleUrl> 
+<Point><coordinates>-1.890361,52.985252,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 10</name><description>tagId: 10 
+type: photo opportunity 
+Radius: 10m 
+Comment: rita seat  
+Time: 2010-06-14 12:58:58 
+Timestamp: 1276520356513
+</description> 
+<styleUrl>#greenIcon</styleUrl> 
+<Point><coordinates>-1.889981,52.985048,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 11</name><description>tagId: 11 
+type: end of ride 
+Radius: 5m 
+Comment: 13 photo booth  
+Time: 2010-06-14 13:02:09 
+Timestamp: 1276520611705
+</description> 
+<styleUrl>#redIcon</styleUrl> 
+<Point><coordinates>-1.890195,52.984705,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 12</name><description>tagId: 12 
+type: Q-Zone 
+Radius: 10m 
+Comment: 13 q entrance  
+Time: 2010-06-14 13:04:13 
+Timestamp: 1276520794929
+</description> 
+<styleUrl>#yellowIcon</styleUrl> 
+<Point><coordinates>-1.889562,52.985209,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 13</name><description>tagId: 13 
+type: Q-Zone 
+Radius: 20m 
+Comment: 13 2nd point  
+Time: 2010-06-14 13:07:53 
+Timestamp: 1276520948558
+</description> 
+<styleUrl>#yellowIcon</styleUrl> 
+<Point><coordinates>-1.889755,52.984528,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 14</name><description>tagId: 14 
+type: photo opportunity 
+Radius: 10m 
+Comment: mutiny bay wet  
+Time: 2010-06-14 13:21:31 
+Timestamp: 1276521722673
+</description> 
+<styleUrl>#greenIcon</styleUrl> 
+<Point><coordinates>-1.889975,52.988895,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 15</name><description>tagId: 15 
+type: photo opportunity 
+Radius: 20m 
+Comment: wet people  
+Time: 2010-06-14 13:23:29 
+Timestamp: 1276521850379
+</description> 
+<styleUrl>#greenIcon</styleUrl> 
+<Point><coordinates>-1.890104,52.988637,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 16</name><description>tagId: 16 
+type: lunch/break 
+Radius: 10m 
+Comment: pirates pasty  
+Time: 2010-06-14 13:25:24 
+Timestamp: 1276521954675
+</description> 
+<styleUrl>#blueIcon</styleUrl> 
+<Point><coordinates>-1.889814,52.989013,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 17</name><description>tagId: 17 
+type: lunch/break 
+Radius: 15m 
+Comment: mex cantina 
+Time: 2010-06-14 13:27:38 
+Timestamp: 1276522090435
+</description> 
+<styleUrl>#blueIcon</styleUrl> 
+<Point><coordinates>-1.889385,52.989131,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 18</name><description>tagId: 18 
+type: lunch/break 
+Radius: 7m 
+Comment: mex cantina front 
+Time: 2010-06-14 13:28:18 
+Timestamp: 1276522138496
+</description> 
+<styleUrl>#blueIcon</styleUrl> 
+<Point><coordinates>-1.889407,52.989136,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 19</name><description>tagId: 19 
+type: lunch/break 
+Radius: 38m 
+Comment: court yard  
+Time: 2010-06-14 13:29:20 
+Timestamp: 1276522221033
+</description> 
+<styleUrl>#blueIcon</styleUrl> 
+<Point><coordinates>-1.88997,52.989259,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 20</name><description>tagId: 20 
+type: lunch/break 
+Radius: 20m 
+Comment: Burger king  
+Time: 2010-06-14 14:01:11 
+Timestamp: 1276524110441
+</description> 
+<styleUrl>#blueIcon</styleUrl> 
+<Point><coordinates>-1.889101,52.989689,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 21</name><description>tagId: 21 
+type: photo opportunity 
+Radius: 10m 
+Comment: waterfall  
+Time: 2010-06-14 14:03:24 
+Timestamp: 1276524243104
+</description> 
+<styleUrl>#greenIcon</styleUrl> 
+<Point><coordinates>-1.888715,52.989732,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 22</name><description>tagId: 22 
+type: Q-Zone 
+Radius: 15m 
+Comment: mine train 
+Time: 2010-06-14 14:09:46 
+Timestamp: 1276524615421
+</description> 
+<styleUrl>#yellowIcon</styleUrl> 
+<Point><coordinates>-1.885614,52.989753,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 23</name><description>tagId: 23 
+type: photo opportunity 
+Radius: 10m 
+Comment: duel zombie  
+Time: 2010-06-14 14:13:25 
+Timestamp: 1276524842800
+</description> 
+<styleUrl>#greenIcon</styleUrl> 
+<Point><coordinates>-1.884439,52.988981,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 24</name><description>tagId: 24 
+type: lunch/break 
+Radius: 20m 
+Comment: waffles 
+Time: 2010-06-14 14:14:26 
+Timestamp: 1276524901326
+</description> 
+<styleUrl>#blueIcon</styleUrl> 
+<Point><coordinates>-1.884638,52.988911,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 25</name><description>tagId: 25 
+type: Q-Zone 
+Radius: 15m 
+Comment:  Nemesis q entrance  
+Time: 2010-06-14 14:26:44 
+Timestamp: 1276525641260
+</description> 
+<styleUrl>#yellowIcon</styleUrl> 
+<Point><coordinates>-1.883425,52.987119,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 26</name><description>tagId: 26 
+type: lunch/break 
+Radius: 10m 
+Comment: Nemesis break  
+Time: 2010-06-14 14:28:30 
+Timestamp: 1276525747511
+</description> 
+<styleUrl>#blueIcon</styleUrl> 
+<Point><coordinates>-1.883184,52.986867,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 27</name><description>tagId: 27 
+type: lunch/break 
+Radius: 20m 
+Comment: fish n chips  
+Time: 2010-06-14 14:29:43 
+Timestamp: 1276525827429
+</description> 
+<styleUrl>#blueIcon</styleUrl> 
+<Point><coordinates>-1.882959,52.986679,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 28</name><description>tagId: 28 
+type: end of ride 
+Radius: 10m 
+Comment: Nemesis exit  
+Time: 2010-06-14 14:30:49 
+Timestamp: 1276525895662
+</description> 
+<styleUrl>#redIcon</styleUrl> 
+<Point><coordinates>-1.882899,52.98669,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 29</name><description>tagId: 29 
+type: lunch/break 
+Radius: 20m 
+Comment: cafe bar  
+Time: 2010-06-14 14:32:31 
+Timestamp: 1276525979105
+</description> 
+<styleUrl>#blueIcon</styleUrl> 
+<Point><coordinates>-1.882814,52.98632,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 30</name><description>tagId: 30 
+type: Q-Zone 
+Radius: 20m 
+Comment: air  
+Time: 2010-06-14 14:35:26 
+Timestamp: 1276526168492
+</description> 
+<styleUrl>#yellowIcon</styleUrl> 
+<Point><coordinates>-1.881955,52.985456,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 31</name><description>tagId: 31 
+type: photo opportunity 
+Radius: 15m 
+Comment: air upside down  
+Time: 2010-06-14 14:38:00 
+Timestamp: 1276526306100
+</description> 
+<styleUrl>#greenIcon</styleUrl> 
+<Point><coordinates>-1.881934,52.986207,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 32</name><description>tagId: 32 
+type: end of ride 
+Radius: 15m 
+Comment: air exit  
+Time: 2010-06-14 14:42:20 
+Timestamp: 1276526619045
+</description> 
+<styleUrl>#redIcon</styleUrl> 
+<Point><coordinates>-1.881939,52.98618,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 33</name><description>tagId: 33 
+type: lunch/break 
+Radius: 25m 
+Comment: outside air  
+Time: 2010-06-14 14:44:56 
+Timestamp: 1276526733154
+</description> 
+<styleUrl>#blueIcon</styleUrl> 
+<Point><coordinates>-1.882304,52.986052,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 34</name><description>tagId: 34 
+type: Q-Zone 
+Radius: 15m 
+Comment: duel entrance  
+Time: 2010-06-14 14:59:03 
+Timestamp: 1276527579566
+</description> 
+<styleUrl>#yellowIcon</styleUrl> 
+<Point><coordinates>-1.884364,52.988884,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 35</name><description>tagId: 35 
+type: end of ride 
+Radius: 10m 
+Comment: duel exit  
+Time: 2010-06-14 14:59:45 
+Timestamp: 1276527630538
+</description> 
+<styleUrl>#redIcon</styleUrl> 
+<Point><coordinates>-1.884316,52.988814,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 36</name><description>tagId: 36 
+type: Q-Zone 
+Radius: 20m 
+Comment: river rapids 
+Time: 2010-06-14 15:06:41 
+Timestamp: 1276528067645
+</description> 
+<styleUrl>#yellowIcon</styleUrl> 
+<Point><coordinates>-1.887019,52.989678,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 37</name><description>tagId: 37 
+type: end of ride 
+Radius: 10m 
+Comment: river rapids exit 
+Time: 2010-06-14 15:08:40 
+Timestamp: 1276528179672
+</description> 
+<styleUrl>#redIcon</styleUrl> 
+<Point><coordinates>-1.886483,52.989769,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 38</name><description>tagId: 38 
+type: photo opportunity 
+Radius: 25m 
+Comment: lake and castle  
+Time: 2010-06-14 15:17:31 
+Timestamp: 1276528679847
+</description> 
+<styleUrl>#greenIcon</styleUrl> 
+<Point><coordinates>-1.892083,52.989222,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 39</name><description>tagId: 39 
+type: end of ride 
+Radius: 10m 
+Comment: sonic exit  
+Time: 2010-06-14 15:22:13 
+Timestamp: 1276528973406
+</description> 
+<styleUrl>#redIcon</styleUrl> 
+<Point><coordinates>-1.894476,52.988943,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 40</name><description>tagId: 40 
+type: end of ride 
+Radius: 15m 
+Comment: oblivion exit  
+Time: 2010-06-14 15:27:50 
+Timestamp: 1276529326835
+</description> 
+<styleUrl>#redIcon</styleUrl> 
+<Point><coordinates>-1.895704,52.986459,50</coordinates></Point> 
+</Placemark>  
+<Placemark> 
+<name>Tag: 55</name><description>tagId: 55 
+type: photo opportunity 
+Radius: 10m 
+Comment: sonic  
+Time: 2010-06-24 12:01:53 
+Timestamp: 1277380936588
+</description> 
+<styleUrl>#greenIcon</styleUrl> 
+<Point><coordinates>-1.893805,52.988793,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 56</name><description>tagId: 56 
+type: Q-Zone 
+Radius: 10m 
+Comment: sonic queue  
+Time: 2010-06-24 12:06:40 
+Timestamp: 1277381237596
+</description> 
+<styleUrl>#yellowIcon</styleUrl> 
+<Point><coordinates>-1.893993,52.988712,50</coordinates></Point> 
+</Placemark> 
+<Placemark>
+<name>Tag: 57</name><description>tagId: 57 
+type: Q-Zone 
+Radius: 10m 
+Comment: Nemesis q 
+Time: 2010-06-24 14:52:22 
+Timestamp: 1277391206019
+</description> 
+<styleUrl>#yellowIcon</styleUrl> 
+<Point><coordinates>-1.883688,52.987452,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 58</name><description>tagId: 58 
+type: Q-Zone 
+Radius: 0m 
+Comment: Nemesis q1  
+Time: 2010-06-24 14:54:03 
+Timestamp: 1277391266027
+</description> 
+<styleUrl>#yellowIcon</styleUrl> 
+<Point><coordinates>-1.883575,52.987312,50</coordinates></Point> 
+</Placemark> 
+<Placemark> 
+<name>Tag: 59</name><description>tagId: 59 
+type: photo opportunity 
+Radius: 10m 
+Comment: waterfall  
+Time: 2010-06-24 15:25:03 
+Timestamp: 1277393120293
+</description> 
+<styleUrl>#greenIcon</styleUrl> 
+<Point><coordinates>-1.888521,52.989758,50</coordinates></Point> 
+</Placemark> 
+</Document> 
+ </kml>

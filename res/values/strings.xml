@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="photopicker">1. Pick a photo from your gallery for your comic. \n
+    						   2. Annotate the photo with a speech- or thought bubble.
+    						   </string>
+	<string name="launch_gallery">Launch Gallery</string>
+	<string name="launch_camera">Launch Camera</string>
+    <string name="app_name">Automics</string>
+    <string name="starter_name">Start Automics</string>
+    <string name="cloud_push_started">Uploading your images...</string>
+    <string name="cloud_push_label">Currently uploading...</string>
+    <string name="cloud_pull_started">Checking for images...</string>
+    <string name="cloud_pull_label">Currently downloading...</string>
+    <string name="photo_task">Photo</string>
+    <string name="photo_story_task">ChoosePhotos</string>
+    <string name="annotation_task">MakePanel</string>
+    <string name="loc_app_name">LocMsgs</string>
+     <string name="locationlistenertext">Start the Automics Alton Towers Experience. Once this is running, press the \'home\' button 
+     				at the bottom of the screen.</string>
+    <string name="startlocbuttontext"> >> Start experience</string>
+    <string name="stoplocbuttontext"> X Stop experience</string>
+    <string name="populatebuttontext"> Populate LoationModel DB</string>
+    <string name="loclistener_service_started">Automics experience is running</string>
+    <string name="loclistener_service_label">Automics running</string>
+    <string name="proxalert">POI!</string>
+    <string name="proxalerttitle">Proximity Alert</string>
+    <string name="photo_task_alert">Take a photo</string>
+    <string name="photo_task_alert_title">Photo Opportunity</string>
+    <string name="annotation_task_alert">Annotate a photo</string>
+    <string name="annotation_task_alert_title">Speech/Thought Bubble</string>
+     <string name="picker_task_alert">Choose images for your Automic</string>
+    <string name="picker_task_alert_title">Photo Story</string>
+    <string name="oblivion_seat_photo_text">Maybe you can convince one of you to climb into a seat? Take a photo of them.</string> 
+    <string name="oblivion_break_text">Having refreshments near Oblivion? Why not use the time to choose three panels for your Automic?</string>
+	<string name="oblivion_q_text">Dare to ride Oblivion? Why not use this queuing time to select a photo for your Automic and put comments on it if you like?</string>
+	<string name="q_activity_text">Are you queuing? Why not use the queuing time to select a photo for your Automic and put comments on it if you like?</string>
+	<string name="break_activity_text">Time for a break. Why not use the time to choose three panels for your Automic?</string>
+	<string name="photo_opp_text">Do you see anything fun to take a picture of? Maybe with some of you on it?</string>
+	<string name="sonic_exit_text">You made it! Did you enjoy the spinning fun? Why not take a photo of yourself to prove your braveness.</string>
+	<string name="oblivion_exit_text">That\'s what falling must be like. Why not take a picture to show you survived!?</string>
+	<string name="oblivion_drop_photo_text">Would you like to try that drop? Maybe you can capture a photo of yourself in front of it?</string>
+	<string name="sonic_break_text">Time for a break near Sonic? Why not use the time to choose three panels for your Automic?</string>
+	<string name="sonic_photo_text">Do you see a friendly hedgehog that wants to be on a photo with you?</string>
+	<string name="sonic_q_text">Daring the Sonic ride? Why not use the queuing time to select a photo for your Automic and put comments on it if you like?</string>
+	<string name="default_text">Hi there! Hope you\'re enjoying your day at Alton Towers.</string>
+	<string name="annotation_task_text">Crop images for your Automic. Add speech bubbles and comments if you like.</string>
+	<string name="photo_task_text">If you want to take a photo, press the button below.</string>
+	<string name="photo_story_task_text">Been on Sonic, Oblivion or Battle Galleons? Choose three photos for your Automic.</string>
+    <string name="mult_choice_question_txt">How appropriate was the timing of this notification?</string>	
+	<string name="one_txt">very bad</string>     
+    <string name="two_txt">bad</string>     
+    <string name="three_txt">neither good nor bad</string>     
+    <string name="four_txt">good</string>     
+    <string name="five_txt">very good</string>     
+    <string name="crop">Crop</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_bubble">Add \n Bubble</string>
+    <string name="save">Save</string>
+    <string name="new_images_alert">Your friends have shared</string>
+    <string name="new_images_alert_title">New Images</string>
+    <string name="taskpicker">Choose a task: </string>
+    <string name="photo_task_btn">Take a Photo</string>
+    <string name="annotation_task_btn">Crop and Annotate</string>
+    <string name="photostory_task_btn">Choose Photos for Automic</string>
+    <string name="groupname">g3</string>
+
+    
+    
+</resources>

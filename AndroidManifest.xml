@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="mrl.automics"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" 
+    			 android:label="@string/app_name">
+    			 
+        <activity android:name=".ui.PhotoPicker_Activity"
+                  android:label="@string/app_name"
+                  android:launchMode="singleTask">
+        </activity>
+        
+        <activity android:name=".ui.ChosenImage_Activity"
+                  android:label="Your chosen image"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="landscape"/>
+                  
+		<activity android:name=".ui.BubbleEditor"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait">       
+       </activity>
+       
+       <activity android:name=".ui.ImageSectionSelector_Activity"
+       			 android:theme="@android:style/Theme.NoTitleBar"
+       			 android:screenOrientation="landscape"/>
+       
+        <activity android:name=".ui.MultChoice_Activity"
+       			 android:theme="@android:style/Theme.NoTitleBar"
+       			 android:screenOrientation="portrait"/>
+       
+       <activity android:name=".ui.ImageSharer_Activity"
+       			 android:theme="@android:style/Theme.NoTitleBar"/>
+       			 
+       <activity android:name=".ui.OnlineTask"
+       			 android:screenOrientation="portrait"/>
+       			 
+       <activity android:name=".ui.MessageDisplay_Activity"
+       			 android:theme="@android:style/Theme.NoTitleBar"
+       			 android:launchMode="singleTask"
+       			 android:screenOrientation="portrait"/>
+       		
+       <activity android:name=".ui.TaskPicker_Activity"
+       	   	     android:icon="@drawable/automics_icon"
+       			 android:label="@string/app_name"
+       			 android:launchMode="singleTask"
+       			 android:screenOrientation="portrait">
+       			 <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+       </activity>
+       			 
+       <activity android:icon="@drawable/automics_icon" 
+       			 android:name=".ui.ExperienceStarter_Activity"
+                 android:label="@string/starter_name"
+                 android:launchMode="singleTask"
+                 android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       
+       <activity android:name=".ui.Photo_Activity"
+       	   	     android:icon="@drawable/camera_icon"
+       			 android:theme="@android:style/Theme.NoTitleBar"
+       			 android:label="@string/photo_task"
+       			 android:launchMode="singleTask"
+       			 android:screenOrientation="portrait">
+       			 <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+       </activity>
+       			 
+       <activity android:name=".ui.PhotoStory_Activity"
+       			 android:icon="@drawable/photo_picker_icon"
+       			 android:theme="@android:style/Theme.NoTitleBar"
+       			 android:label="@string/photo_story_task"
+       			 android:launchMode="singleTask"
+       			 android:screenOrientation="portrait">
+       			 <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+       </activity>
+       			 
+       <activity android:name=".ui.Annotation_Activity"
+       			 android:icon="@drawable/photo_story_icon"
+       			 android:theme="@android:style/Theme.NoTitleBar"
+       			 android:label="@string/annotation_task"
+       			 android:launchMode="singleTask">
+       			 <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+       </activity>
+        
+        <activity android:name=".ui.NotificationCancel_Activity"
+        			android:launchMode="singleTask"/>
+        
+        <service android:name=".sensors.CloudPull_Service" android:process=":remote"/>
+       	<service android:name=".sensors.CloudPush_Service" android:process=":remote"/>
+        <service android:name=".sensors.LocListener_Service" android:process=":remote" />
+        <service android:name=".sensors.SensorManager_Service" android:process=":remote" />
+        <service android:name=".sensors.SchedulerHelper_Service" android:process=":remote" />
+        <service android:name=".sensors.DeliveryManager_Service" android:process=":remote"/>
+        <service android:name=".sensors.DeliveryOpportunityManager_Service" android:process=":remote"/>
+        <service android:name=".sensors.MessageDelivery_Service" android:process=":remote"/>
+        <service android:name=".sensors.TaskReminder_Service" android:process=":remote"/>
+        
+        <receiver android:name=".sensors.ProxAlert_BroadcastReceiver" android:enabled="true">
+	        <intent-filter>
+	        	<action android:name="mrl.automics.sensors.PROX_ALERT"/>
+	        	<action android:name="mrl.automics.sensors.UPLOAD"/>
+	        	<action android:name="mrl.automics.sensors.IMAGES_ALERT"/>
+	        </intent-filter>
+	    </receiver>
+       
+       
+    </application>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    
+    <uses-sdk android:minSdkVersion="4" />
+
+</manifest> 
